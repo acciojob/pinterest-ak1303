@@ -8,7 +8,8 @@
 	display:flex;
 }
 img{
-	height:70vh;
+	height:100vh;
+	object-fit:fill;
 }
 .info{
 	display:flex;
@@ -21,6 +22,7 @@ img{
 }
 .btn{
 	background-color:red;
+	text-decoration:none;
 	border-radius:5px;
 	padding:5px;
 	width:100px;
